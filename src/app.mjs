@@ -28,6 +28,19 @@ export default {
     { title: 'Your services too', text: 'An optional services section shows whether the services you list are up, degraded or down: HTTP, launchd, TCP or a command, re-read every 30 seconds.' },
     { title: 'Light by design', text: 'Native SwiftUI and AppKit, no third-party dependencies, no remote service. It reads the files your agents already write. 0.19% average CPU.' },
   ],
+  sections: [
+    {
+      title: 'Designed against a method',
+      intro: 'Every choice below is a constraint, not a taste: it comes from <a href="https://mattbonfanti.com/the-ux-decode/">The UX DeCode</a>, the 13-principle HCI framework I design with.',
+      items: [
+        { title: 'A metaphor you already know', text: 'It borrows the Dynamic Island from the iPhone instead of inventing a new one, so there is nothing to learn. <em>P4, match with mental models.</em>' },
+        { title: 'Nothing at rest', text: 'When no agent needs you, the notch stays a notch. Session, branch, running tool and tokens appear only on hover. <em>P9, cognitive limits.</em>' },
+        { title: 'Never color alone', text: 'Color tells you which agent; the glyph (terminal, pencil, raised hand) tells you what is happening. It still reads without relying on hue. <em>P1, accessibility.</em>' },
+        { title: 'Standard Mac gestures', text: 'Click brings the agent’s app forward, ⌥-click opens the project in Finder. No gesture invented just for this app. <em>P3, platform conventions.</em>' },
+      ],
+    },
+  ],
+  related: { text: 'From the same maker: a menu-bar app that forecasts whether your battery will last the day, with a local time-series model.', label: 'Till Dusk', href: 'https://tilldusk.mattbonfanti.com' },
   caseStudy: { text: 'How it was designed, the three rewrites and what its own design framework says against it:', label: 'read the case study', href: 'https://mattbonfanti.com/shipped/agent-notch/' },
   privacy: [
     'AgentNotch has no account, no analytics and no server. Nothing is sent to me.',
