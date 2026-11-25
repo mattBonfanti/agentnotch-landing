@@ -1,0 +1,17 @@
+# Link tracciati: ogni clic passa da qui, quindi finisce nelle analytics di Cloudflare.
+# Ogni /go/<nome> deve avere la versione con e senza / finale (verify.mjs controlla).
+
+/go/download https://github.com/mattBonfanti/AgentNotch 302
+/go/download/ https://github.com/mattBonfanti/AgentNotch 302
+/go/source https://github.com/mattBonfanti/AgentNotch 302
+/go/source/ https://github.com/mattBonfanti/AgentNotch 302
+/go/footer-source https://github.com/mattBonfanti/AgentNotch 302
+/go/footer-source/ https://github.com/mattBonfanti/AgentNotch 302
+/go/install-source https://github.com/mattBonfanti/AgentNotch 302
+/go/install-source/ https://github.com/mattBonfanti/AgentNotch 302
+/go/case-study https://mattbonfanti.com/shipped/agent-notch/ 302
+/go/case-study/ https://mattbonfanti.com/shipped/agent-notch/ 302
+/go/ux-decode https://mattbonfanti.com/the-ux-decode/ 302
+/go/ux-decode/ https://mattbonfanti.com/the-ux-decode/ 302
+/go/related https://tilldusk.mattbonfanti.com 302
+/go/related/ https://tilldusk.mattbonfanti.com 302

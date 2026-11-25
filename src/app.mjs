@@ -17,7 +17,7 @@ export default {
     { wide: true, src: '/screens/agentnotch-line.png', w: 560, h: 86, alt: 'A thin line tracing the notch outline, split into four colored arcs, one per agent.' },
   ],
   install: [
-    'Clone <a href="https://github.com/mattBonfanti/AgentNotch">the repository</a>.',
+    'Clone <a href="/go/install-source" rel="nofollow">the repository</a>.',
     'Build and run it with <code>./build.sh</code>, as the README explains.',
     'It needs no account and no setup: it finds the agents that are already writing on your Mac.',
   ],
@@ -31,7 +31,7 @@ export default {
   sections: [
     {
       title: 'Designed against a method',
-      intro: 'Every choice below is a constraint, not a taste: it comes from <a href="https://mattbonfanti.com/the-ux-decode/">The UX DeCode</a>, the 13-principle HCI framework I design with.',
+      intro: 'Every choice below is a constraint, not a taste: it comes from <a href="/go/ux-decode" rel="nofollow">The UX DeCode</a>, the 13-principle HCI framework I design with.',
       items: [
         { title: 'A metaphor you already know', text: 'It borrows the Dynamic Island from the iPhone instead of inventing a new one, so there is nothing to learn. <em>P4, match with mental models.</em>' },
         { title: 'Nothing at rest', text: 'When no agent needs you, the notch stays a notch. Session, branch, running tool and tokens appear only on hover. <em>P9, cognitive limits.</em>' },
@@ -46,5 +46,9 @@ export default {
     'AgentNotch has no account, no analytics and no server. Nothing is sent to me.',
     'It reads the session files that your coding agents already write on your Mac. Those files never leave your computer.',
     'The optional services section contacts only the addresses you write yourself in services.json.',
+  ],
+  sitePrivacy: [
+    'This website uses Cloudflare Web Analytics, which counts page views without cookies and without following you across sites.',
+    'The Download and Source buttons go through a short redirect on this site, so I can count how many people click them. I keep only that count and the page it came from; I do not store your IP address or build a profile of you. Cloudflare, which hosts the site, sees the connection as any web host does and handles it under its own privacy policy.',
   ],
 };
